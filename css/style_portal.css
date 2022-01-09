@@ -1,9 +1,11 @@
-.head-box {
-    background-color: red;
-    font-size: 11px;
-    
+h1{
+    color: white;
 }
 
-h1{
-    font-color: white;
+.head-box {
+    background-color: red;
+}
+.footer{
+    background-color: red;
+    color: white;
 }
