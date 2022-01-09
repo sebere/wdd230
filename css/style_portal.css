@@ -4,23 +4,31 @@ html {
 .page-grid{
     grid-template-columns : auto 1fr;
     align-items : center;
-    text-align : center;
-    
+    text-align : center; 
+    border: 100px
 
 }
 h1{
     color: white;
-    border-bottom : 1px solid rgb(54, 54, 54);
-}
 
+}
+h2{
+    border-bottom : 1px solid black;
+}
 .head-box {
     background-color: red;
+    padding : 10px
+    
 }
-
+.main-list{
+    border-bottom : 1px solid black;
+}
     
 .footer{
     background-color: red;
     color: white;
     text-align : center;
+    padding : 10px
+    
 }
 
