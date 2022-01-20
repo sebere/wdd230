@@ -16,7 +16,6 @@ main{
 header, footer {
     background-color:rgb(255, 136, 0);
     color: white;
-    padding: 8px;
     text-align: center;
 }
 section{
@@ -30,6 +29,11 @@ section p{
     padding: 2px 4px;
     font-weight: normal;
 }
+
+img{
+    width: 100%;
+}
+
 section h3{
     background-color: rgb(255, 136, 0);
     color: white;
