@@ -16,15 +16,28 @@ header, footer {
     padding: 8px;
     text-align: center;
 }
+section{
+    margin-bottom: .5em;
+    padding: 0;
+    border: 2px solid #2e497d;
+    background-color: white;
+    border-radius: 6px;
+}
+section h3{
+    background-color: rgb(255, 136, 0);
+    color: white;
+    margin: 0;
+    padding: 5px 4px;
+}
+
 h1 {
-    font-size: 1rem;
+    font-size: 2rem;
     padding-left: 95px;
     text-align: center;
 }
 
 h2 {
-    font-size: 1rem;
-    border-bottom: 1px solid black;
+    font-size: 2rem;
     text-align: center;
 }
 
