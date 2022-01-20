@@ -1,6 +1,6 @@
 body {
     background-color: #EEE;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Mochiy Pop P One', sans-serif;;
     margin: 0;
 }
 main{
@@ -24,6 +24,7 @@ section{
     border: 2px solid #2e497d;
     background-color: white;
     border-radius: 6px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 section p{
     padding: 2px 4px;
