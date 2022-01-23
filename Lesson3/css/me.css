@@ -1,0 +1,21 @@
+@media only screen and (min-width: 32.5em) {
+
+    nav ul{
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1fr;
+        padding: .75em;
+    }
+
+    main{
+        margin: 1em 2em;
+        grid-template-columns: repeat(1fr);
+        grid-template-rows: 1fr 1.5fr;
+        grid-column-gap: 8px;
+    }
+
+    #White{
+        align-self: stretch;
+    }
+
+
+}
