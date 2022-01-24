@@ -13,18 +13,18 @@ main{
 }
     
 footer {
-    background-color:#ffc46a;
+    background-color:rgb(235, 209, 95);
     color: white;
     text-align: center;
 }
 header{
-    color:rgb(172, 96, 65);
+    color:rgb(202, 106, 45);
     text-align: center;
 
 }
 
 nav{
-    background-color: #ffc46a;
+    background-color: rgb(235, 209, 95);
     text-align: center;
     margin-top: 0;
 }
@@ -47,7 +47,7 @@ nav li a{
 
 nav li a:hover{
     background-color: white;
-    color: #ffc46a;
+    color: rgb(202, 106, 45);
 }
 section{
     margin-bottom: .5em;
@@ -66,7 +66,7 @@ section{
 }
 
 img{
-    width: 75%;
+    width: 50%;
     display: block; 
     margin: auto;
 }
