@@ -16,6 +16,9 @@
     #White{
         align-self: stretch;
     }
+    #colors{
+        width: 50%;
+    }
 
 
 }
