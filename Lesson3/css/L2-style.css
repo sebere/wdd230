@@ -56,9 +56,11 @@ section{
     border-radius: 6px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-#parrafo{
+p{
     color:black;
     padding: 1em;
+    margin: auto;
+    align-items: center;
 
 }
 #page{
@@ -72,8 +74,8 @@ img{
 }
 
 section h3{
-    background-color: rgb(255, 136, 0);
+    background-color: rgb(202, 106, 45);
     color: white;
     margin: 0;
-    padding: 5px 4px;
+    padding: .5em;
 }
