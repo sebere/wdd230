@@ -8,7 +8,7 @@
 
     main{
         margin: 1em 2em;
-        grid-template-columns: repeat(1fr);
+        grid-template-columns: 1fr;
         grid-template-rows: 1fr 1.5fr;
         grid-column-gap: 8px;
     }
