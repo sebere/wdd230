@@ -10,6 +10,7 @@ main{
     align-items: center;
     margin: 0 2em 1em 2em;
     font-size: 1em;
+    text-align: left;
 }
     
 footer {
@@ -60,6 +61,7 @@ p{
     color:black;
     padding: 1em;
     margin: auto;
+    text-align: left;
 }
 
 #page{
@@ -98,12 +100,25 @@ img{
     color: white;
 }
 
-h2,h4{
+
+h1{
+    color:#CA6A2D;
+}
+h2{
+    font-weight: 900;
+    padding: 0;
+    color:#CA6A2D; 
+}
+h3{
+    background-color: #EBD15F;
+    color: white;
+    padding: .5em;
+}
+
+h4{
     font-weight: 900;
     padding: 0;
 }
-h3{
-    background-color: rgb(255, 136, 0);
-    color: white;
-    padding: .5em;
+#parag{
+    text-align: center;
 }
