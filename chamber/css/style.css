@@ -1,0 +1,167 @@
+body {
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+}
+
+main {
+    display: grid;
+    grid: repeat(5, 1fr)/ 1fr;
+    grid-row-gap: 10px;
+    padding: 1em;
+    margin: auto 1rem;
+    font-size: .7em;
+}
+
+main section {
+    background-color: #FDEDEC;
+    padding: .5em;
+}
+
+header {
+    display: grid;
+    grid: 2fr 1fr / 1fr 2fr 2fr 1fr;
+    align-items: center;
+    justify-items: center;
+    font-size: .7em;
+    background-color: rgb(235, 209, 95);
+    color: rgb(202, 106, 45);
+    padding: .6em;
+    margin-bottom: .5rem;
+    grid-column-gap: .8rem;
+}
+
+.logo {
+    width: 10px;
+}
+
+h1 {
+    padding-left: 5px;
+}
+
+button {
+    background-color: rgb(202, 106, 45);
+    color: white;
+    border: none;
+    font-size: 2em;
+}
+
+.extra {
+    display: none;
+}
+
+date{
+	margin: 0.5rem;
+	border: 1px solid  rgb(202, 106, 45);
+	padding: 0.75rem;
+	background-color: #FEF9E7;
+    grid-column: 1/end;
+}
+
+nav {
+	margin: 0 auto;
+	max-width: 760px;
+}
+.navig {
+	list-style: none;
+	padding: 0;
+    margin: 0;
+    padding: .5rem;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    padding: 0;
+    font-size: 1em;
+    top: 15%;
+}
+
+.navig li {
+	display: none;
+}
+
+.navig a {
+	display: block;
+	padding: 0.75rem 2vw;
+	text-decoration: none;
+	color: white;
+	transition: 0.2s;
+}
+
+nav ul li.active a, .navig a:hover {
+    background-color:rgb(202, 106, 45);
+}
+
+.hidden {
+    display: none;
+}
+
+.toggle-btn {
+    padding: 1em;
+}
+
+.social {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
+  <ul class="navigation responsive">
+*/
+.responsive li {
+	display: block;
+}
+
+.responsive ul {
+    position: absolute;
+    width: 100%;
+}
+
+.responsive a {
+    background-color: #011640;
+}
+
+.spotlight {
+    display: grid;
+    grid: 1fr 1fr / 1fr;
+    grid-row-gap: 2px;
+}
+
+.spotlight p {
+    border: 1px dotted #355B8C;
+
+}
+
+#spotlight3 {
+    display: none;
+}
+
+.join {
+    display: none;
+}
+
+.logo {
+    width: 75px;
+}
+
+.icon {
+    width: 40px;
+}
+
+.social a img {
+    padding: .3em;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: rgb(235, 209, 95);
+    color: rgb(202, 106, 45);
+}
+
+.top{
+    padding: 0%;
+    margin: 0%;
+}
+.lastmod{
+    padding: 0%;
+    margin: 0%;
+}
