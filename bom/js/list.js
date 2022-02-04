@@ -1,5 +1,5 @@
-const list = document.querySelector('ul');
-const input = document.querySelector('input');
+ const list = document.querySelector('ul');
+const input = document.querySelector('#favchap');
 const button = document.querySelector('button');
 
 button.onclick = function(){
@@ -13,7 +13,7 @@ button.onclick = function(){
     listBook.appendChild(listName);
     listName.textContent = myBook;
     listBook.appendChild(listClik);
-    listClik.textContent = 'Delete';
+    listClik.textContent = '❌';
     list.appendChild(listBook);
 
     listClik.onclick= function(e){
