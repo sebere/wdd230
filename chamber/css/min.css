@@ -13,14 +13,23 @@
     }
 
     main {
-        grid: repeat(5, 1fr) / repeat(3, 1fr);
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
         grid-column-gap: 10px;
         font-size: 1em;
+        max-width: 600px;
+        margin: 0 auto 1em auto;
+        grid-row-gap: 1em;
     }
 
     .hero{
         grid-column: 1/4;
         grid-row: 1/2;
+    }
+
+    .hero h2 {
+        font-size: 2em;
+        padding: 1.5em;
     }
 
     .news {
@@ -32,7 +41,27 @@
         grid-column: 1/4;
         grid-row: 4/5;
         display: initial;
+        display: grid;
+        grid-auto-rows: minmax(min-content, max-content);
+        text-align: center;
     }
+
+    .join button {
+        color:rgb(202, 106, 45);
+        background-color: rgb(235, 209, 95);
+        padding: 1px;
+        border-radius: 7px;
+        width:75%;
+        margin: .25em auto;
+        font-size: 2em;
+        
+    }
+
+    .join p {
+        padding: 0 1em 0 .5em;
+        font-weight: normal;
+    }
+
     .event {
         grid-column: 1/3;
         grid-row: 5/6;
@@ -50,37 +79,37 @@
         grid-column-gap: 5px;
     }
 
-    .footer {
+    .top-footer {
         display: grid;
         grid: 1fr / 1fr 1fr;
         align-items: center;
     }
 
-    .chamber {
+    .company {
         display: grid;
         grid: 1fr 1fr / 1fr 2fr;
         text-align: left;
     }
 
-    .chamber p {
+    .company p {
         padding-top: .5em;
         padding-left: 10px;
     }
 
-    .chamber h2 {
+    .company h2 {
         margin-block-end: 0;
         padding-left: 10px;
     }
 
 
-    .chamber img {
+    .company img {
         grid-column: 1/2;
         grid-row: 1/3;
         justify-self: end;
         align-self: center;
     }
 
-    .info {
+    .contact {
         align-self: center;
     }
 
