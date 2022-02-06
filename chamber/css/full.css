@@ -63,7 +63,9 @@
 		margin-bottom: 1em;
 		margin-right: 1em;
 	}
-
+	#banner{
+		text-align: center;
+	}
 	.relace {
 		grid-row: 3/4;
 		grid-column: 2/3;
