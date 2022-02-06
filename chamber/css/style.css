@@ -128,7 +128,7 @@ hr{
     background-color:rgb(202, 106, 45);
     margin: 10px;
 }
-.spotlight h2 {
+.spotlight h2, .join h2 {
     color:rgb(202, 106, 45);
     background-color: rgb(235, 209, 95);
 
@@ -197,8 +197,8 @@ hr{
     margin-bottom: 1.5em;
     margin-right: 1.5em;
     font-size: 1.5em;
-    color:rgb(202, 106, 45);
-    background-color: rgb(235, 209, 95);
+    color:rgb(235, 209, 95);
+    background-color: rgb(202, 106, 45);
 }
 
 footer {
