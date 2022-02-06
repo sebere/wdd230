@@ -36,11 +36,17 @@
 	.weather {
 		grid-row: 2/3;
 		grid-column: 1/2;
+
+	}
+	.weather h2{
+		color:rgb(202, 106, 45);
+		background-color: rgb(235, 209, 95);
 	}
 
 	.join {
 		grid-row: 3/4;
 		grid-column: 1/2;
+		
 	}
 
 	.hero {
@@ -65,6 +71,7 @@
 	}
 	.relace h2{
 		color:rgb(202, 106, 45);
+		background-color: rgb(235, 209, 95);
 	}
 	.spotlight {
 		grid-row: 1/4;
