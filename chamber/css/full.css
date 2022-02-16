@@ -41,6 +41,7 @@
 	.weather h2{
 		color:rgb(202, 106, 45);
 		background-color: rgb(235, 209, 95);
+		text-align: center;
 	}
 
 	.join {
