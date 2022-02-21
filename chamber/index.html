@@ -10,7 +10,8 @@
     <link rel="shortcut icon" href="favicon.ico">
     <script defer src="js/dates.js"></script>
     <script defer src="js/date.js"></script>  
-    <script defer src="js/menu.js"></script>   
+    <script defer src="js/menu.js"></script>
+    <script defer src="js/wind.js"></script>    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
@@ -55,7 +56,12 @@
     <main>
         <section class="hero">
             <h2>Welcome to Bogota</h2>
-            <img src="images/bogota.jpeg" alt="Bogota colombia">
+            <picture class="hero-images">
+                <source media="(min-width: 33.9em)" srcset="images/wdd230-em.webp">
+                <source media="(min-width: 829px)" srcset="images/wdd230_830.webp">
+                <source media="(min-width: 1390px)" srcset="images/wdd230-large.webp">
+                <img src="images/wdd230-large.webp" alt="Bogota colombia">
+            </picture>
             <button type="button" class="join-button">Join the Chamber</button>
         </section>
         <section class="event">
@@ -65,6 +71,11 @@
         </section>
         <section class="weather">
             <h2>Weather</h2>
+            <img src="images/sol.png" alt="sol">
+            <h3><span id ="tempe">22</span>&#176;</h3>
+            <h3><span>Sunny</span></h3>
+            <p>Wind Speed:  <span id="speed"> 5 mph </span></p>
+            <p>Wind Chill:  <span id="windchill"></span></p>
         </section>
         <section class="join">
             <h2>Join</h2>
