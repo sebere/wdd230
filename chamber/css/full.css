@@ -104,6 +104,45 @@
     .menu {
         display: none;
     }
+/* CSS for DISCOVER */
+	.mainDiscover {
+		display: grid;
+		grid-template-rows: minmax(min-content, max-content);
+		grid-template-columns: minmax(min-content, max-content);
+		max-width: 400px;
+	}
+   
+	.mainDiscover img[data-src] {
+	   filter: blur(0.2em);
+	   
+	 }
+	.mainDiscover img {
+		filter: blur(1px) grayscale(75%);
+	   transition: filter 0.5s;
+	   padding: 0.5px;
+	 }
+	 .card{
+		 background-color: rgb(202, 106, 45);
+		 padding: 10px 20px;
+		 color: white;
+		 text-align: center;
+	 }
+	 .card h3{
+		 color:rgb(235, 209, 95) ;
+	 }
+
+	 .mainDiscover p{
+		 text-align: justify;
+		 margin-top: auto;
+		 padding: 0 0;
+	 }
+	
+
+
+
+
+
+
 
 
 }
