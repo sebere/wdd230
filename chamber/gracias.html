@@ -11,7 +11,8 @@
     <script defer src="js/dates.js"></script>
     <script defer src="js/date.js"></script>  
     <script defer src="js/menu.js"></script>
-    <script defer src="js/wind.js"></script>    
+    <script defer src="js/wind.js"></script>
+    <script defer src="js/visit.js"></script>   
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
@@ -39,7 +40,7 @@
                     <a href="#">Directory</a>
                 </li>
                 <li> 
-                    <a href="#">Join</a>
+                    <a href="join.html">Join</a>
                 </li>
                 <li> 
                     <a href="#">Contact</a>
@@ -51,65 +52,11 @@
             <a href="https://www.linkedin.com" target="_blank"><img src="images/link.png" alt="linkedin logo" width="50" class="icon"></a>
         </div>
         <date></date>
+        <p id="sameday"> You visited this page <span id="lastvisit"></span> days ago.</p>
     </header>
     <div id="banner"></div>
-    <main>
-        <section class="hero">
-            <h2>Welcome to Bogota</h2>
-            <picture class="hero-images">
-                <source media="(min-width: 33.9em)" srcset="images/wdd230-em.webp">
-                <source media="(min-width: 829px)" srcset="images/wdd230_830.webp">
-                <source media="(min-width: 1390px)" srcset="images/wdd230-large.webp">
-                <img src="images/wdd230-large.webp" alt="Bogota colombia">
-            </picture>
-            <button type="button" class="join-button">Join the Chamber</button>
-        </section>
-        <section class="event">
-            <h2>Event! ⌛</h2>
-            <p> NAMA Industry
-                <br>The Industry NAMA Project: Productive Processes, is an initiative of the United Nations Development Program (UNDP) </p>
-        </section>
-        <section class="weather">
-            <h2>Weather</h2>
-            <img src="images/sol.png" alt="sol">
-            <h3><span id ="tempe">22</span>&#176;</h3>
-            <h3><span>Sunny</span></h3>
-            <p>Wind Speed:  <span id="speed"> 5 mph </span></p>
-            <p>Wind Chill:  <span id="windchill"></span></p>
-        </section>
-        <section class="join">
-            <h2>Join</h2>
-            <p>Discover how to join the chamber of commerce and how it will benefit your organitation</p>
-            <button>Join Us!</button>
-        </section>
-        <section class="relace">
-            <h2>News Relace</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos rem vitae suscipit praesentium obcaecati velit ratione asperiores numquam. At odit ut hic qui, unde adipisci ex eos natus dolores impedit!</p>
-        </section>
-        <section class="spotlight">
-            <div id="spotlight1">
-                <h2>Legal Advice</h2>
-                <img src="images/books.png" alt="">
-                <hr>
-                <p>legaladvice@ccb.com</p>
-                <p>Phone: (57)601-5557777</p>
-            </div>
-            <div id = "spotlight2">
-                <h2>Housing Sector</h2>
-                <img src="images/house.png" alt="">
-                <hr>
-                <p>housing@ccb.com</p>
-                <p>Phone: (57)601-5557777</p>
-            </div>
-            <div id="spotlight3">
-                <h2>Health Sector</h2>
-                <img src="images/corazon.png" alt="">
-                <hr>
-                <p>health@ccb.com</p>
-                <p>Phone: (57)601-5557777</p>
-            </div>   
-        </section>
-
+    <main class="mainJoin">
+        <h2>Thank you for your answers!!!</h2>
     </main>
     <footer>
         <div class="footer">
