@@ -37,26 +37,33 @@ hr {
         background-color: white;
         height: 2px;
 }
-@media only screen and (min-width:600px) {
-    .cards{
-        grid-template-columns: repeat(2, 1fr);
-    }
-    .cards section h2 {
-        font-size: x-large;
-    }
+
+/* DIRECTORY */
+.mainDirectory{max-width: 800px;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(48, 117, 177);
 }
 
-@media only screen and (min-width:920px){
-    .cards{
-        grid-template-columns: repeat(3, 1fr);
-        grid-column-gap: 8px;
-        grid-row-gap: 13px;
-    }
-    .cards section {
-        padding: 1.5em;
-        margin:0;
-    }
-    .cards section img {
-        max-width: 100%;
-    }
+h1{
+    color: white;
+}
+.cards{
+    display: grid;
+    width: 100%;
+    justify-items: center;
+.cards section{
+    background: rgb(241, 241, 243);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 1em;
+    box-shadow: 0px 1px 10px  white;
+}
+.cards section h2{
+    background: rgb(124, 197, 217);
+    color: white;
+}
+.cards section img{
+    max-width: 50%;
+    border-radius: 0.5em;
 }

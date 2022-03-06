@@ -11,8 +11,8 @@
     <script defer src="js/dates.js"></script>
     <script defer src="js/date.js"></script>  
     <script defer src="js/menu.js"></script>
-    <script defer src="js/wind.js"></script>
-    <script defer src="js/visit.js"></script>   
+    <script defer src="js/visit.js"></script> 
+    <script defer src="js/directory.js"></script> 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
@@ -58,8 +58,15 @@
         <p id="sameday"> You visited this page <span id="lastvisit"></span> days ago.</p>
     </header>
     <div id="banner"></div>
-    <main class="mainJoin">
-        <h2>Thank you for your answers!!!</h2>
+    <main class="mainDirectory">
+        <section class="directory">
+            <h2 class="title">Directory</h2>
+            <div class="list-view-btn">
+              <button id="list-btn"> <img src="images/directory/lista.webp" alt="list view button" width="50"></button>
+              <button id="card-btn"> <img src="images/directory/card.webp" alt="list view button" width="50"></button>
+            </div>
+            <div class="cards list-view"></div>
+        </section>
     </main>
     <footer>
         <div class="footer">

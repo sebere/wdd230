@@ -237,3 +237,61 @@ footer {
     padding: 0%;
     margin: 0%;
 }
+/* DIRECTORY*/
+.directory {
+    text-align: center;
+    background-color:rgb(202, 106, 45);
+    
+}
+
+.list-view img, .card-view>section h2 {display: none;}
+
+.card-view img{
+    display: block;
+    width: 70%;
+    margin: auto;
+}
+
+.list-view>section h2 {display: block;}
+
+.list-view section {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0em 0em 1em 0em;
+    border-radius: 5px;
+}
+
+.card-view {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.card-view section {
+    padding: .5em;
+    margin: .5em;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px  rgb(230, 218, 165) ;
+}
+
+.list-view-btn button {
+    padding:.2rem;
+    background-color: white;
+    border: 3px rgb(230, 218, 165) solid;
+    border-radius: 5px;
+    margin: .3em;
+}
+
+
+.list-view section:nth-child(2n) {
+    background-color: rgb(230, 218, 165);
+    margin: 0em 0em 1em 0em;
+    border-radius: 5px;
+}
+.directory h2{
+    color: rgb(202, 106, 45);
+}
+.title{
+    color: white;
+    text-align: center;
+}
