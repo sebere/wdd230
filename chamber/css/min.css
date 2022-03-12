@@ -76,9 +76,13 @@
         grid-column: 3/4;
         grid-row: 5/6;
     }
-    .weather h2{
+    .weather h3{
         color:rgb(202, 106, 45);
-        background-color: rgb(235, 209, 95);
+        text-align: center;
+        
+    }
+    .tempe{
+        align-items: center;
     }
 
     .spotlight {
@@ -88,7 +92,7 @@
         grid-column-gap: 5px;
     }
 
-    .top-footer {
+    .footer {
         display: grid;
         grid: 1fr / 1fr 1fr;
         align-items: center;

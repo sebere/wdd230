@@ -129,9 +129,9 @@ nav ul li.active a, .navig a:hover {
     color:rgb(202, 106, 45);
     background-color: rgb(235, 209, 95);
 }
-.weather h2{
+.weather h3{
     color:rgb(202, 106, 45);
-    background-color: rgb(235, 209, 95);
+    text-align: center;
 }
 .weather img{
     float: left;
