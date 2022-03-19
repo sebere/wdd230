@@ -183,6 +183,14 @@
 		padding: 2px;
 
 	}
+	/* DIRECTORY*/
+	.mainDirectory {
+		display: grid;
+		grid-template-rows: minmax(min-content, max-content);
+		grid-template-columns: minmax(min-content, max-content);
+		max-width: 1000px;
+	}
+
 	.card-view {
         grid-template-columns: repeat(3, 1fr);
     }

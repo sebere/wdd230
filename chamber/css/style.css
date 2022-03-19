@@ -228,7 +228,11 @@ footer {
     background-color: rgb(235, 209, 95);
     color: rgb(202, 106, 45);
 }
-
+footer hr{
+    border: 0; height: 1px; box-shadow: inset 0 12px 12px -12px white;
+    background-color: white;
+    
+}
 .top{
     padding: 0%;
     margin: 0%;
@@ -237,13 +241,12 @@ footer {
     padding: 0%;
     margin: 0%;
 }
-/* DIRECTORY*/
+/* DIRECTORY */
 .directory {
     text-align: center;
     background-color:rgb(202, 106, 45);
     
 }
-
 .list-view img, .card-view>section h2 {display: none;}
 
 .card-view img{
@@ -251,16 +254,14 @@ footer {
     width: 70%;
     margin: auto;
 }
-
 .list-view>section h2 {display: block;}
 
 .list-view section {
     display: grid;
     grid-template-columns: 1fr;
-    margin: 0em 0em 1em 0em;
+    margin: 0em 1em 1em 1em;
     border-radius: 5px;
 }
-
 .card-view {
     display: grid;
     grid-template-columns: 1fr;
@@ -282,16 +283,14 @@ footer {
     margin: .3em;
 }
 
-
 .list-view section:nth-child(2n) {
     background-color: rgb(230, 218, 165);
-    margin: 0em 0em 1em 0em;
+    margin: 0em 1em 1em 1em;
     border-radius: 5px;
 }
 .directory h2{
     color: rgb(202, 106, 45);
-}
-.title{
-    color: white;
     text-align: center;
 }
+
+
