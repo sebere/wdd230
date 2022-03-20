@@ -408,8 +408,6 @@ form legend{
     padding: .5rem;
     border-radius: 10px;
 }
-
-
 form label.top input, form label.top select {
     -webkit-appearance: none;
 	display: block;
@@ -437,5 +435,25 @@ form textarea{
     margin-left: 5rem;
     border-radius: 10px;
     width: 15%;
+}
+
+/* CONTACT US */
+
+.mainContact{
+    display: grid;
+    justify-items: center;
+}
+.informa{
+    color: white;
+    background-color: rgb(202, 106, 45);
+    margin-top: .5rem;
+    padding: .5rem 1rem;
+    border-radius: 10px;
+    max-height: 300px;
+}
+.informa h3{
+    color:white;
+    background-color: rgb(209, 178, 40);
+    border-radius: 5px;
 }
 

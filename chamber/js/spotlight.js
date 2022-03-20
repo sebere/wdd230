@@ -1,3 +1,4 @@
+//const requestURL = 'https://sebere.github.io/wdd230/chamber/js/data.json';
 const requestURL = "js/data.json"
 const spotlightItems = document.querySelectorAll(".spotlight-item")
 
