@@ -144,13 +144,18 @@ hr{
     background-color:rgb(202, 106, 45);
     margin: 10px;
 }
+.join h2 {
+    color:rgb(202, 106, 45);
+    background-color: rgb(235, 209, 95);
+}
+/*
 .spotlight h2, .join h2 {
     color:rgb(202, 106, 45);
     background-color: rgb(235, 209, 95);
 
 }
 #spotlight1, #spotlight2, #spotlight3{
-    /*border: 2px dotted  rgb(202, 106, 45);*/
+    /*border: 2px dotted  rgb(202, 106, 45);
     text-align: center;
     padding: 0;
     box-shadow: 0 2px 5px rgb(202, 106, 45);
@@ -162,6 +167,42 @@ hr{
 #spotlight3 {
     display: none;
 }
+*/
+.spotlight {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 1em;
+    text-align: center;
+}
+
+.spotlight div {
+    border: 2px solid rgb(209, 178, 40);
+    margin: 0;
+    box-shadow: 4px 4px 4px rgb(209, 178, 40) ;
+}
+
+.spotlight h3 {
+    background-color: #355B8C;
+}
+
+.home-main section .home-section-heading {
+    text-align: left;
+}
+
+.spotlight div p {
+    color: black;
+    font-weight: normal;
+    padding-left: .5em;
+    padding-right: .5em;
+}
+
+.spotlight img {
+    width: 150px;
+    min-height: 100px;
+    padding-top: .75rem;
+}
+
+#spotlight3 {display: none;}
 
 .join {
     display: none;

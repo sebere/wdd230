@@ -82,8 +82,31 @@
 		grid-column-gap: 10px;
 	}
 
-	#spotlight3 {
-		display: initial;
+	.spotlight h3 {
+		align-self: start;
+	}
+
+	.spotlight-item {
+		grid-column: 1/2;
+	}
+
+	.spotlight img {
+		width: 100px;
+		margin-top: .75rem;
+		text-align: center;
+	}
+
+	.spotlight-item p {
+		margin-block-start: .5rem;
+		margin-block-end: .5rem;
+
+	}
+
+	#spotlight3 {display: initial;}
+
+    .navigation {
+		display: flex;
+		position: relative;
 	}
 
     .navig {
