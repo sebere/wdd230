@@ -98,24 +98,24 @@
         align-items: center;
     }
 
-    .company {
+    .chamber {
         display: grid;
         grid: 1fr 1fr / 1fr 2fr;
         text-align: left;
     }
 
-    .company p {
+    .chamber p {
         padding-top: .5em;
         padding-left: 10px;
     }
 
-    .company h2 {
+    .chamber h2 {
         margin-block-end: 0;
         padding-left: 10px;
     }
 
 
-    .company img {
+    .chamber img {
         grid-column: 1/2;
         grid-row: 1/3;
         justify-self: end;
