@@ -166,10 +166,14 @@
         transition: transform 0.2s ease-in-out;
     }
 
-    .join-main {
+    .mainJoin {
         grid-template-columns: 1fr;
         justify-items: center;
     }
+    .mainJoin form fieldset, .mainJoin .submitBtn {
+        max-width: 25rem;
+    }
+
 
     .thankyou-main {
         grid-row-gap: 0;

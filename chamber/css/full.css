@@ -104,85 +104,13 @@
     .menu {
         display: none;
     }
-/* CSS for DISCOVER */
-	.mainDiscover {
-		display: grid;
-		grid-template-rows: minmax(min-content, max-content);
-		grid-template-columns: minmax(min-content, max-content);
-		max-width: 400px;
-	}
-   
-	.mainDiscover img[data-src] {
-	   filter: blur(0.2em);
-	   
-	 }
-	.mainDiscover img {
-		filter: blur(1px) grayscale(75%);
-	   transition: filter 0.5s;
-	   padding: 0.5px;
-	 }
-	 .card{
-		 background-color: rgb(202, 106, 45);
-		 padding: 10px 20px;
-		 color: white;
-		 text-align: center;
-	 }
-	 .card h3{
-		 color:rgb(235, 209, 95) ;
-	 }
+	/*JOIN*/
 
-	 .mainDiscover p{
-		 text-align: justify;
-		 margin-top: auto;
-		 padding: 0 0;
-	 }
-	/* CSS JOIN */
-	.mainJoin, h2 {
-		display: grid;
-		grid-template-rows: minmax(min-content, max-content);
-		grid-template-columns: minmax(min-content, max-content);
-		max-width: 400px;
-		color:rgb(202, 106, 45);
-	}
-	.mainJoin p {
-		padding: 0px;
-	}
-	fieldset{
-		background: white; 
-		color: rgb(202, 106, 45);
-		border: 2px  solid rgb(202, 106, 45);
-		border-radius: 10px;
-		text-align: justify;
-		padding: 10px;
-		margin: 10px;
-	}
-	legend{
-		background: rgb(235, 209, 95);
-		color: white;
-		border: 1px solid rgb(209, 178, 40);
-		font-size: 1rem;
-	}
-	.top, label, form{
-		display: block;
-		padding-top: 10px;
-		padding-right: 2px;
-		max-width: 30rem;
-	}
-	input{
-		padding: 8px;
-		background: rgb(247, 228, 216);
-		border: 1px  solid rgb(202, 106, 45);
-		border-radius: 10px;
-	}
-	.cost{
-		background: rgb(235, 209, 95);
-		color: white;
-		border: 1px solid rgb(209, 178, 40);
-		font-size: 1rem;
-		border-radius: 10px;
-		padding: 2px;
+	.mainJoin h2 {
+        margin-top: 1rem;
+        border-radius: 5px;
+    }
 
-	}
 	/* DIRECTORY*/
 	.mainDirectory {
 		display: grid;

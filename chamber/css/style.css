@@ -324,5 +324,77 @@ footer hr{
     color: rgb(202, 106, 45);
     text-align: center;
 }
+/* CSS JOIN */
 
+.titulo{
+    display: block;
+    color: rgb(202, 106, 45);
+    text-align: center;
+    align-items: center;
+}
+.mainJoin {
+    display: grid;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    align-items: center;
+    color:rgb(202, 106, 45);
+}
+form {
+    margin: .5rem;
+    min-width: 350px;
+}
+
+.description {
+    display: none;
+}
+form fieldset{
+	background: white; 
+	color: rgb(202, 106, 45);
+	border: 2px  solid rgb(202, 106, 45);
+	border-radius: 10px;
+    max-width: 16rem;
+	padding: .5rem 2.5%;
+    margin: 1rem;
+    padding-inline-end: 2rem;
+	
+}
+form legend{
+	background: rgb(235, 209, 95);
+	color: white;
+	border: 1px solid rgb(209, 178, 40);
+	font-size: 1rem;
+    margin: 0 1rem;
+    padding: .5rem;
+    border-radius: 10px;
+}
+
+
+form label.top input, form label.top select {
+    -webkit-appearance: none;
+	display: block;
+    font-size: 1rem;
+    padding: .80rem;
+    width: 100%;
+	max-width: 30rem;
+}
+input{
+	padding: 8px;
+	background: rgb(247, 228, 216);
+	border: 1px  solid rgb(202, 106, 45);
+	border-radius: 10px;
+}
+form textarea{
+    width: 90%;
+    background-color: rgb(247, 228, 216);
+}
+.cost{
+    display: block;
+	background: rgb(235, 209, 95);
+	color: white;
+	border: 1px solid rgb(209, 178, 40);
+    padding: .25rem 1rem;
+    margin-left: 5rem;
+    border-radius: 10px;
+    width: 15%;
+}
 
