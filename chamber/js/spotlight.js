@@ -19,7 +19,7 @@ fetch(requestURL)
             let image = document.createElement('img');
             image.src = business.imgfile;
             image.setAttribute('alt', business.name);
-            spotlight.appendChild(image);
+            card.appendChild(image);
 
             //p phone
             let p2 = document.createElement('p');

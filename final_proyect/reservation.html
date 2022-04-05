@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Temple Inn & Suites || Home </title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/max.css" rel="stylesheet">
+    <script defer src="js/date.js"></script> 
+    <script defer src="js/menu.js"></script>
+    <script src="https://kit.fontawesome.com/e1b75c02e8.js" crossorigin="anonymous"></script>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Raleway:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <button class="ham"> &#9776 </button>
+            <ul class="navigation">
+                <li><a href="index.html"> Home </a></li>
+                <li><a href="temple.html"> Temple </a></li>
+                <li><a href="service.html"> Service </a></li>
+                <li><a href="reservation.html"> Reservation </a></li>
+            </ul>
+            
+        </nav>
+        <img src="images/logo.webp" alt="Temple Inn & Suites logo" class="logo">
+        <div class="date"></div>
+    </header>
+
+    <main>
+        <h1 class="title">RESERVATION</h1>
+        <div class="main-reservation">
+            <fieldset class="fechas">
+                <label for="rooms" class="top">Hotel
+                <select name="Hotel">
+                    <option value="1">Bogota</option>
+                    <option value="2">Barranquilla</option>
+                    <option value="3">Lima</option>
+                    <option value="4">Mexito City</option>
+                </label>   
+                </select>
+                <label class="top">Check-In<input type="date" name="fname" required></label>
+                <label class="top">Check-Out<input type="date" name="lname" required></label>
+                <label for="rooms" class="top">Rooms
+                <select name="Rooms" >
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7+</option>
+                </label>
+                </select>
+                <label for="rooms">Adults
+                <select name="Adults">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                </label>
+                </select>
+                <label for="rooms">Childrens
+                <select name="Childrens">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                </label>
+                </select>
+                <button>RESERVE</button>
+            </fieldset>
+            <form method="get" action="gracias.html">
+                <fieldset>
+                    <legend>Personal Info</legend>
+                    <label class="top">First Name*<input type="text" name="fname" required></label>
+                    <label class="top">Last Name*<input type="text" name="lname" required></label>
+                    <label class="top">Email*<input type="email" name="email" placeholder="mail@mail.com" required></label>
+                    <label class="top">Phone*<input type="tel" name="phone" required></label>
+                </fieldset>
+                <fieldset>
+                    <legend>More Info</legend>
+                    <label class="top">Country of Residence<input type="text" name="bus-position" pattern="[A-Za-z\s-]{7,}" title="Business Position" required></label>
+                    <label class="top">City<input type="text" name="bus-name" title="Business Name" required></label>
+                    <label class="top">Special Accommodations <br><textarea rows="2" name="bus-description"></textarea></label>
+                </fieldset>
+
+                <label><input type="hidden" id="submitdate" name="submitdate" value=""></label>
+                <input type="submit" class="submitBtn" value="RESERVE">
+            </form>
+
+            <section class="seccion">
+                <h1 class= "ciudad">Bogota</h1>
+                <picture class="photo-room">
+                    <source media="(max-width: 33.9em)" srcset="images/reservation/room-bogota-small.webp" width="500px">
+                    <source media="(max-width: 829px)" srcset="images/reservation/room-bogota-medium.webp">
+                    <source media="(max-width: 1400px)" srcset="images/reservation/room-bogota.webp">
+                    <img src="images/reservation/room-bogota.webp" alt="bogota" width="600px">
+                </picture>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.3579856269807!2d-74.05832368562787!3d4.707725942908386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f85351d2ae387%3A0x6fd7678908164635!2sTemplo%20Bogot%C3%A1%20Colombia!5e0!3m2!1ses!2sco!4v1649121124114!5m2!1ses!2sco" width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="services">
+                    <button class="icon"><i class="fa-solid fa-bed"></i></button>
+                    <button class="icon"><i class="fa-solid fa-bath"></i></i></button>
+                    <button class="icon"><i class="fa-solid fa-dumbbell"></i></i></button>
+                    <button class="icon"><i class="fa-solid fa-person-swimming"></i></i></button>
+                    <button class="icon"><i class="fa-solid fa-tv"></i></i></button>
+                    <button class="icon"><i class="fa-solid fa-wifi"></i></i></button>
+                    <button class="icon"><i class="fa-solid fa-baby-carriage"></i></i></button>
+                    <button class="icon"><i class="fa-solid fa-car"></i></i></button>
+                    <button class="icon"><i class="fa-solid fa-kitchen-set"></i></i></button>
+                </div>
+                
+            </section>
+            <section class="seccion">
+                <h1 class= "ciudad">Barranquilla</h1>
+                <picture class="photo-room">
+                    <source media="(max-width: 33.9em)" srcset="images/reservation/room-barranquilla-small.webp" width="500px">
+                    <source media="(max-width: 829px)" srcset="images/reservation/room-barranquilla-medium.webp">
+                    <source media="(max-width: 1400px)" srcset="images/reservation/room-barranquilla.webp">
+                    <img src="images/reservation/room-barranquilla.webp" alt="barranquilla" width="600px">
+                </picture>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.2914508820318!2d-74.86475488560401!3d11.016745757725232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef42dc096f35163%3A0xb00a5b4cd1baff98!2sBarranquilla%20Colombia%20Temple!5e0!3m2!1ses!2sco!4v1649121193327!5m2!1ses!2sco" width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="services">
+                    <button class="icon"><i class="fa-solid fa-bed"></i></button>
+                    <button class="icon"><i class="fa-solid fa-umbrella-beach"></i></i></button>
+                    <button class="icon"><i class="fa-solid fa-bath"></i></i></button>
+                    <button class="icon"><i class="fa-solid fa-dumbbell"></i></i></button>
+                    <button class="icon"><i class="fa-solid fa-person-swimming"></i></i></button>
+                    <button class="icon"><i class="fa-solid fa-tv"></i></i></button>
+                    <button class="icon"><i class="fa-solid fa-wifi"></i></i></button>
+                    <button class="icon"><i class="fa-solid fa-baby-carriage"></i></i></button>
+                    <button class="icon"><i class="fa-solid fa-car"></i></i></button>
+                    <button class="icon"><i class="fa-solid fa-kitchen-set"></i></i></button>
+                </div>
+            </section>
+            <section class="seccion">
+                <h1 class= "ciudad">Lima</h1>
+                <picture class="photo-room">
+                    <source media="(max-width: 33.9em)" srcset="images/reservation/room-lima-small.webp" width="500px">
+                    <source media="(max-width: 829px)" srcset="images/reservation/room-lima-medium.webp">
+                    <source media="(max-width: 1400px)" srcset="images/reservation/room-lima.webp">
+                    <img src="images/reservation/room-lima.webp" alt="lima" width="600px">
+                </picture>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d97288.30131509893!2d-77.08103435126782!3d-12.047135568126423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c6ef6b787c51%3A0xdb4dfb638e48fae3!2sTemplo%20de%20Lima%20Per%C3%BA!5e0!3m2!1ses!2sco!4v1649121333135!5m2!1ses!2sco" width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="services">
+                    <button class="icon"><i class="fa-solid fa-bed"></i></button>
+                    <button class="icon"><i class="fa-solid fa-umbrella-beach"></i></i></button>
+                    <button class="icon"><i class="fa-solid fa-bath"></i></i></button>
+                    <button class="icon"><i class="fa-solid fa-dumbbell"></i></i></button>
+                    <button class="icon"><i class="fa-solid fa-person-swimming"></i></i></button>
+                    <button class="icon"><i class="fa-solid fa-tv"></i></i></button>
+                    <button class="icon"><i class="fa-solid fa-wifi"></i></i></button>
+                    <button class="icon"><i class="fa-solid fa-baby-carriage"></i></i></button>
+                    <button class="icon"><i class="fa-solid fa-car"></i></i></button>
+                    <button class="icon"><i class="fa-solid fa-kitchen-set"></i></i></button>
+                </div>
+            </section>
+            <section class="seccion">
+                <h1 class= "ciudad">Mexico</h1>
+                <picture class="photo-room">
+                    <source media="(max-width: 33.9em)" srcset="images/reservation/room-mexico-small.webp" width="500px">
+                    <source media="(max-width: 829px)" srcset="images/reservation/room-mexico-medium.webp">
+                    <source media="(max-width: 1400px)" srcset="images/reservation/room-mexico.webp">
+                    <img src="images/reservation/room-mexico.webp" alt="lima" width="600px">
+                </picture>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3761.7659958721197!2d-99.08905218551438!3d19.46565334466796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1fbc4648b0ee7%3A0x61382b34e9618369!2sTemplo%20de%20la%20Ciudad%20de%20M%C3%A9xico%2C%20M%C3%A9xico!5e0!3m2!1ses!2sco!4v1649121266081!5m2!1ses!2sco" width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="services">
+                    <button class="icon"><i class="fa-solid fa-bed"></i></button>
+                    <button class="icon"><i class="fa-solid fa-umbrella-beach"></i></i></button>
+                    <button class="icon"><i class="fa-solid fa-bath"></i></i></button>
+                    <button class="icon"><i class="fa-solid fa-dumbbell"></i></i></button>
+                    <button class="icon"><i class="fa-solid fa-person-swimming"></i></i></button>
+                    <button class="icon"><i class="fa-solid fa-tv"></i></i></button>
+                    <button class="icon"><i class="fa-solid fa-wifi"></i></i></button>
+                    <button class="icon"><i class="fa-solid fa-baby-carriage"></i></i></button>
+                    <button class="icon"><i class="fa-solid fa-car"></i></i></button>
+                    <button class="icon"><i class="fa-solid fa-kitchen-set"></i></i></button>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="infoFooter">
+            <img src="images/logo.webp" alt="logo">       
+        </div>
+        <div class="infoFooter">
+            <ul>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="infoFooter">
+            <ul>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="infoFooter">
+            <h2>Follow Us</h2>
+            <div class="social">
+                <a href="https://instagram.com" target="_blank"><img src="images/instagram.png" alt="Facebook logo" class="iconos"></a>
+                <a href="https://twitter.com" target="_blank"><img src="images/tw.png" alt="LinkedIn logo" class="iconos"></a>
+            </div> 
+        </div>
+
+        <div class="personalInfo">
+            <div class="wdd-info">&copy;<span id="currentyear"></span> .:|:. Sergio Benavides Reyes .:|:. Bogota</div>
+        </div>
+            <span id="lastupdated"></span>
+            
+        
+
+    </footer>
+
+</body>
+</html>

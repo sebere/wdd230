@@ -1,0 +1,31 @@
+{
+    "temples": [
+      {
+        "name": "Bogota Temple",
+        "address": "Carrera 46 N°127-45",
+        "phone": "(57) 601-625-8000",
+        "imgfile": "images/temples/bogota-temple.jpeg"
+      },
+      {
+        "name": "Barranquilla Temple",
+        "address": "Carrera 46 via al mar pr 107",
+        "phone": "(57) 605-310-0200",
+        "imgfile": "images/temples/Barranquilla-temple.jpeg"
+      },
+      {
+        "name": "Lima Temple",
+        "address": "Av. Javier Prado Este 6420",
+        "phone": "(51) 1-612-7200",
+        "imgfile": "images/temples/lima-temple.jpeg"
+      },
+      {
+        "name": "Mexico City Temple",
+        "address": "Avenida 510 #90",
+        "phone": "(52) 55-5003-3700",
+        "button": "More Info...",
+        "services":"Services: Clothing rental available, No cafeteria available , No patron housing available, Distribution center nearby",
+        "imgfile": "images/temples/mexico-temple.jpeg"
+      }
+
+    ]
+}

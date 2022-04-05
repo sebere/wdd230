@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Temple Inn & Suites || Home </title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/max.css" rel="stylesheet">
+    <script defer src="js/wind.js"></script>
+    <script defer src="js/date.js"></script> 
+    <script defer src="js/menu.js"></script> 
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Raleway:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <button class="ham"> &#9776 </button>
+            <ul class="navigation">
+                <li><a href="index.html"> Home </a></li>
+                <li><a href="temple.html"> Temple </a></li>
+                <li><a href="service.html"> Service </a></li>
+                <li><a href="reservation.html"> Reservation </a></li>
+            </ul>
+            
+        </nav>
+        <img src="images/logo.webp" alt="Temple Inn & Suites logo" class="logo">
+        <div class="date"></div>
+    </header>
+
+    <main>
+        <h1 class="title">OUR HOTELS</h1>
+        <div class="home-main">
+            <div class="temple1">
+                <div class="infoHotel">
+                    <h2>Bogota</h2>
+                    <h3>INFO</h3>
+                    <p>Adress: Cl 125 # 30-24</P>
+                    <p>Phone: (57) 601 223 55 16</p>
+                    <p>Mail: bogota@temple-suits.com</p>
+                </div>
+                <picture class="photo">
+                    <source media="(max-width: 33.9em)" srcset="images/hotel-bogota-largo.webp">
+                    <source media="(max-width: 829px)" srcset="images/hotel-bogota-ancho.webp">
+                    <source media="(max-width: 1400px)" srcset="images/hotel-bogota-ancho.webp">
+                    <img src="images/hotel-bogota-ancho.webp" alt="bogota">
+                </picture>
+                <div class="current-temp">
+                    <h2>Current Weather</h2>
+                    <img id="clima" src="#" alt="">
+                    <h3><span id ="bogota-tempe"></span> °F</h3>
+                    <p><span id="icon-src"></span></p><figure><img id="weathericon" src="#" alt="" />  <figcaption></figcaption></figure>
+                </div>
+
+            </div>
+            <div class="temple2">
+                <div class="infoHotel">
+                    <h2>Barranquilla</h2>
+                    <h3>INFO</h3>
+                    <p>Adress: Cl 125 # 30-24</P>
+                    <p>Phone: (57) 601 223 55 16</p>
+                    <p>Mail: bogota@temple-suits.com</p>
+                </div>
+                <picture class="photo">
+                    <source media="(max-width: 33.9em)" srcset="images/hotel-barranquilla-large.webp">
+                    <source media="(max-width: 829px)" srcset="images/hotel-barranquilla-medium.webp">
+                    <source media="(max-width: 1400px)" srcset="images/hotel-barranquilla-medium.webp">
+                    <img src="images/hotel-barranquilla-medium.webp" alt="barranquilla">
+                </picture>
+                <div class="current-temp">
+                    <h2>Current Weather</h2>
+                    <img id="clima" src="#" alt="">
+                    <h3><span id ="barranquilla-tempe"></span> °F</h3>
+                    <p><span id="icon-src"></span></p><figure><img id="weathericon1" src="#" alt="" />  <figcaption></figcaption></figure>
+                    <p>Wind Speed:  <span id="speed"> 5 mph </span></p>
+                    <p>Wind Chill:  <span id="windchill"></span></p>
+                </div>
+                
+            </div>
+            <div class="temple3">
+                <div class="infoHotel">
+                    <h2>Lima</h2>
+                    <h3>INFO</h3>
+                    <p>Adress: Cl 125 # 30-24</P>
+                    <p>Phone: (57) 601 223 55 16</p>
+                    <p>Mail: bogota@temple-suits.com</p>
+                </div>
+                <picture class="photo">
+                    <source media="(max-width: 33.9em)" srcset="images/hotel-lima-large.webp">
+                    <source media="(max-width: 829px)" srcset="images/hotel-lima-medium.webp">
+                    <source media="(max-width: 1400px)" srcset="images/hotel-lima-medium.webp">
+                    <img src="images/hotel-lima-medium.webp" alt="lima">
+                </picture>
+                <div class="current-temp">
+                    <h2>Current Weather</h2>
+                    <img id="clima" src="#" alt="">
+                    <h3><span id ="lima-tempe"></span> °F</h3>
+                    <p><span id="icon-src"></span></p><figure><img id="weathericon2" src="#" alt="" />  <figcaption></figcaption></figure>
+                </div>
+            </div>
+            <div class="temple4">
+                <div class="infoHotel">
+                    <h2>Ciudad de Mexico</h2>
+                    <h3>INFO</h3>
+                    <p>Adress: Cl 125 # 30-24</P>
+                    <p>Phone: (57) 601 223 55 16</p>
+                    <p>Mail: bogota@temple-suits.com</p>
+                </div>
+                <picture class="photo">
+                    <source media="(max-width: 33.9em)" srcset="images/hotel-bogota-large.webp">
+                    <source media="(max-width: 829px)" srcset="images/hotel-mexico-medium.webp">
+                    <source media="(max-width: 1400px)" srcset="images/hotel-mexico-medium.webp">
+                    <img src="images/hotel-mexico-medium.webp" alt="mexico">
+                </picture>
+                <div class="current-temp">
+                    <h2>Current Weather</h2>
+                    <img id="clima" src="#" alt="">
+                    <h3><span id ="mexico-tempe"></span> °F</h3>
+                    <p><span id="icon-src"></span></p><figure><img id="weathericon3" src="#" alt="" />  <figcaption></figcaption></figure>
+                </div>
+            </div>
+           
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="infoFooter">
+            <img src="images/logo.webp" alt="logo">       
+        </div>
+        <div class="infoFooter">
+            <ul>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="infoFooter">
+            <ul>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="infoFooter">
+            <h2>Follow Us</h2>
+            <div class="social">
+                <a href="https://instagram.com" target="_blank"><img src="images/instagram.png" alt="Facebook logo" class="icon"></a>
+                <a href="https://twitter.com" target="_blank"><img src="images/tw.png" alt="LinkedIn logo" class="icon"></a>
+            </div> 
+        </div>
+
+        <div class="personalInfo">
+            <div class="wdd-info">&copy;<span id="currentyear"></span> .:|:. Sergio Benavides Reyes .:|:. Bogota</div>
+        </div>
+            <span id="lastupdated"></span>
+            
+        
+
+    </footer>
+
+
+</body>
+</html>
