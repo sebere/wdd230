@@ -4,18 +4,30 @@
         "name": "Bogota Temple",
         "address": "Carrera 46 N°127-45",
         "phone": "(57) 601-625-8000",
+        "button": "More Info...",
+        "services":"Services: Clothing rental available, No cafeteria available , No patron housing available, Distribution center nearby",
+        "closures":"Temple Closures 2022: Wednesday, 20 July 2022; Monday, 19 September 2022 - Monday, 28 November 2022; Thursday, 8 December 2022; Saturday, 24 December 2022; Saturday, 31 December 2022 - Sunday, 1 January 2023",
+        "ordinance":"Ordinances for family names must be done in proper sequence—baptism, confirmation, Melchizedek Priesthood ordination (males), initiatory, endowment, and then sealing. Please allow sufficient time to perform all the ordinances you wish to complete during your visit. For additional help and information, please call the temple.",
         "imgfile": "images/temples/bogota-temple.jpeg"
       },
       {
         "name": "Barranquilla Temple",
         "address": "Carrera 46 via al mar pr 107",
         "phone": "(57) 605-310-0200",
+        "button": "More Info...",
+        "services":"Services: Clothing rental available, No cafeteria available , No patron housing available, Distribution center nearby",
+        "closures":"Temple Closures 2022: Monday, 18 April 2022 - Monday, 2 May 2022; Saturday, 1 October 2022; Monday, 17 October 2022 - Monday, 31 October 2022; Thursday, 8 December 2022; Saturday, 24 December 2022 - Sunday, 25 December 2022; Saturday, 31 December 2022 - Sunday, 1 January 2023",
+        "ordinance":"Ordinances for family names must be done in proper sequence—baptism, confirmation, Melchizedek Priesthood ordination (males), initiatory, endowment, and then sealing. Please allow sufficient time to perform all the ordinances you wish to complete during your visit. For additional help and information, please call the temple.",
         "imgfile": "images/temples/Barranquilla-temple.jpeg"
       },
       {
         "name": "Lima Temple",
         "address": "Av. Javier Prado Este 6420",
         "phone": "(51) 1-612-7200",
+        "button": "More Info...",
+        "services":"Services: Clothing rental available, No cafeteria available , No patron housing available, Distribution center nearby",
+        "closures":"Temple Closures 2022: Monday, 18 April 2022 - Monday, 2 May 2022; Thursday, 28 July 2022 - Friday, 29 July 2022; Saturday, 1 October 2022; Monday, 3 October 2022 - Monday, 17 October 2022",
+        "ordinance":"Ordinances for family names must be done in proper sequence—baptism, confirmation, Melchizedek Priesthood ordination (males), initiatory, endowment, and then sealing. Please allow sufficient time to perform all the ordinances you wish to complete during your visit. For additional help and information, please call the temple.",
         "imgfile": "images/temples/lima-temple.jpeg"
       },
       {
@@ -24,6 +36,8 @@
         "phone": "(52) 55-5003-3700",
         "button": "More Info...",
         "services":"Services: Clothing rental available, No cafeteria available , No patron housing available, Distribution center nearby",
+        "closures":"Temple Closures 2022: Monday, 27 June 2022 - Monday, 11 July 2022; Saturday, 1 October 2022; Saturday, 24 December 2022; Saturday, 31 December 2022",
+        "ordinance":"Ordinances for family names must be done in proper sequence—baptism, confirmation, Melchizedek Priesthood ordination (males), initiatory, endowment, and then sealing. Please allow sufficient time to perform all the ordinances you wish to complete during your visit. For additional help and information, please call the temple.",
         "imgfile": "images/temples/mexico-temple.jpeg"
       }
 

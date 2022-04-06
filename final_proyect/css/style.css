@@ -332,6 +332,19 @@ form textarea{
 .show{
     display: block;
 }
+.readMore-btn{
+    color: white;
+    background: rgb(67, 152, 217);
+    font-family: 'Raleway', sans-serif; 
+    padding: 7px;
+    border-radius: 4px;
+    border: none;
+    width: 20%; 
+    align-items: center;
+}
+.tarjeta{
+    align-items: center;
+}
    /************ M A I N     S E R V I C E  ************/
 
 .main-service a{

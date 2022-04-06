@@ -14,7 +14,7 @@ fetch(requestURL)
 
 function displayTemples(temples) {
   let card = document.createElement('section');
-  card.setAttribute('class','text')
+  card.setAttribute('class','tarjeta')
 
   //img
   let image = document.createElement('img');
@@ -45,14 +45,14 @@ function displayTemples(temples) {
   card.appendChild(span);  
 
   //p services
-  //let p3 = document.createElement('p');
-  //p3.textContent = temples.services;
-  //span.appendChild(p3);
+  let p3 = document.createElement('p');
+  p3.textContent = temples.ordinance;
+  span.appendChild(p3);
 
   //p services
-  //let p4 = document.createElement('p');
-  //p4.textContent = temples.closures;
-  //span.appendChild(p4);
+  let p4 = document.createElement('p');
+  p4.textContent = temples.closures;
+  span.appendChild(p4);
 
   //p buttton
   let btn = document.createElement('button');
@@ -63,7 +63,10 @@ function displayTemples(temples) {
 
 
   cards.appendChild(card);
-
+  btn.addEventListener('click', toggleText);
+  function toggleText(){
+      span.classList.toggle('show');
+  }
 }
 
 

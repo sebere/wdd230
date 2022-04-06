@@ -115,10 +115,8 @@
     /************ M A I N   T E M P L E S ************/
     .cards{
         grid-template-columns: 1fr 1fr;
+        color: rgb(52, 79, 150);
     }
-        /*"closures":"Temple Closures 2022: Monday, 27 June 2022 - Monday, 11 July 2022; Saturday, 1 October 2022; Saturday, 24 December 2022; Saturday, 31 December 2022",
-        
-        */
     
     /************ M A I N   R E S E R V A T I O N  ************/
     .seccion{
