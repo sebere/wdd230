@@ -17,7 +17,4 @@ const fulldateUK = new Intl.DateTimeFormat("en-UK", {
 
 datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
 
-if(d.getDay() === 2 || d.getDay() === 1) {
-	const banner = document.querySelector("#banner");
-	banner.style.display = "block";
-}
+
