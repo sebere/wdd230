@@ -1,5 +1,7 @@
-const text = document.querySelector('.text');
+let hideText_btn = document.getElementById('#hideText_btn');
+let hideText = document.getElementById('#hideText');
 
-readMoreBtn.addEventListener('click', (e)=>{
-    text.classList.toggle('show-more');
-})
+hideText_btn.addEventListener('click', toggleText);
+function toggleText(){
+    hideText.classList.toggle('.show');
+}

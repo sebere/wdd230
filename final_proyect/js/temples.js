@@ -39,7 +39,7 @@ function displayTemples(temples) {
 
   //p services
   let span = document.createElement('span');
-  span.setAttribute('class','moreText')
+  span.setAttribute('class','hide')
   span.setAttribute('id', 'hideText')
   span.textContent = temples.services;
   card.appendChild(span);  
@@ -57,7 +57,7 @@ function displayTemples(temples) {
   //p buttton
   let btn = document.createElement('button');
   btn.textContent = temples.button;
-  btn.setAttribute('class','read-more-btn')
+  btn.setAttribute('class','readMore-btn')
   btn.setAttribute('id', 'hideText_btn')
   card.appendChild(btn);  
 
@@ -66,12 +66,8 @@ function displayTemples(temples) {
 
 }
 
-const readMoreBtn = document.querySelector('.read-more-btn');
-const text = document.querySelector('.text');
 
-readMoreBtn.addEventListener('click', (e)=>{
-    text.classList.toggle('show-more');
-})
+
 
 
 

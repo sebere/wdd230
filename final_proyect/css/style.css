@@ -326,7 +326,12 @@ textarea{
 form textarea{
     width: 300px;
 }
-
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
    /************ M A I N     S E R V I C E  ************/
 
 .main-service a{
@@ -372,6 +377,7 @@ form textarea{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    font-size: 2em;
 
    }
 #contePuntos{
@@ -382,7 +388,7 @@ form textarea{
 
 }
 #contePuntos > a{
-    
+    color: rgb(134, 181, 216);
     font-size: 2em;
     font-style: none;
     text-decoration: none;
