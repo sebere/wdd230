@@ -93,8 +93,6 @@ fetch(apiURL)
         document.querySelector('#weathericon3').setAttribute('alt', desc);
         document.querySelector('figcaption').textContent = desc;
 
-      document.querySelector('#tomorrow').textContent = jsObject.daily[1].temp
-
   });
 
 const t = parseInt(document.querySelector("#bogota-tempe").textContent);
