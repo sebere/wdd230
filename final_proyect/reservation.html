@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Temple Inn & Suites || Home </title>
+    <title> Temple Inn & Suites || Reservation </title>
     <link rel="shortcut icon" href="favicon.ico">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/medium.css" rel="stylesheet">
     <link href="css/max.css" rel="stylesheet">
     <script defer src="js/date.js"></script> 
     <script defer src="js/menu.js"></script>
+
     <script src="https://kit.fontawesome.com/e1b75c02e8.js" crossorigin="anonymous"></script>
 
 
@@ -37,67 +38,70 @@
         <h1 class="title">RESERVATION</h1>
         <div class="main-reservation">
             <form method="get" action="gracias.html">
-            <fieldset class="fechas">
-                <label for="rooms" class="top">Hotel
-                <select name="Hotel">
-                    <option value="1">Bogota</option>
-                    <option value="2">Barranquilla</option>
-                    <option value="3">Lima</option>
-                    <option value="4">Mexito City</option>
-                </label>   
-                </select>
-                <label class="top">Check-In<input type="date" name="fname" required></label>
-                <label class="top">Check-Out<input type="date" name="lname" required></label>
-                <label for="rooms" class="top">Rooms
-                <select name="Rooms" >
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                    <option value="6">6</option>
-                    <option value="7">7+</option>
-                </label>
-                </select>
-                <label for="rooms">Adults
-                <select name="Adults">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                    <option value="6">6</option>
-                </label>
-                </select>
-                <label for="rooms">Childrens
-                <select name="Childrens">
-                    <option value="1">0</option>
-                    <option value="2">1</option>
-                    <option value="3">2</option>
-                    <option value="4">3</option>
-                    <option value="5">4</option>
-                    <option value="6">+5</option>
-                </label>
-                </select>
-                <button>RESERVE</button>
-            </fieldset>
-            
-                <fieldset>
-                    <legend>Personal Info</legend>
-                    <label class="top">First Name*<input type="text" name="fname" required></label>
-                    <label class="top">Last Name*<input type="text" name="lname" required></label>
-                    <label class="top">Email*<input type="email" name="email" placeholder="mail@mail.com" required></label>
-                    <label class="top">Phone*<input type="tel" name="phone" required></label>
-                </fieldset>
-                <fieldset>
-                    <legend>More Info</legend>
-                    <label class="top">Country of Residence<input type="text" name="bus-position" pattern="[A-Za-z\s-]{7,}" title="Business Position" required></label>
-                    <label class="top">City<input type="text" name="bus-name" title="Business Name" required></label>
-                    <label class="top">Special Accommodations <br><textarea rows="2" name="bus-description"></textarea></label>
+                <fieldset class="fechas">
+                    <label for="rooms" class="top">Hotel
+                    <select name="Hotel">
+                        <option value="1">Bogota</option>
+                        <option value="2">Barranquilla</option>
+                        <option value="3">Lima</option>
+                        <option value="4">Mexito City</option>
+                    </label>   
+                    </select>
+                    <label class="top">Check-In<input type="date" name="fname" required></label>
+                    <label class="top">Check-Out<input type="date" name="lname" required></label>
+                    <label for="rooms" class="top">Rooms
+                    <select name="Rooms" >
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7+</option>
+                    </label>
+                    </select>
+                    <label for="rooms">Adults
+                    <select name="Adults">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </label>
+                    </select>
+                    <label for="rooms">Childrens
+                    <select name="Childrens">
+                        <option value="1">0</option>
+                        <option value="2">1</option>
+                        <option value="3">2</option>
+                        <option value="4">3</option>
+                        <option value="5">4</option>
+                        <option value="6">+5</option>
+                    </label>
+                    </select>
                 </fieldset>
 
-                <label><input type="hidden" id="submitdate" name="submitdate" value=""></label>
-                <input type="submit" class="submitBtn" value="RESERVE">
+                <span >
+                    <fieldset>
+                        <legend>Personal Info</legend>
+                        <label class="top">First Name*<input type="text" name="fname" required></label>
+                        <label class="top">Last Name*<input type="text" name="lname" required></label>
+                        <label class="top">Email*<input type="email" name="email" placeholder="mail@mail.com" required></label>
+                        <label class="top">Phone*<input type="tel" name="phone" required></label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>More Info</legend>
+                        <label class="top">Country of Residence<input type="text" name="bus-position" pattern="[A-Za-z\s-]{7,}" title="Business Position" required></label>
+                        <label class="top">City<input type="text" name="bus-name" title="Business Name" required></label>
+                        <label class="top">Special Accommodations <br><textarea rows="2" name="bus-description"></textarea></label>
+                    </fieldset>
+    
+                    <label><input type="hidden" id="submitdate" name="submitdate" value=""></label>
+                    <input type="submit" class="readMore-btn" value="RESERVE">
+                </span>
+            
+
             </form>
 
             <section class="seccion">
@@ -192,38 +196,39 @@
         </div>
     </main>
 
-    <footer class="footer">
-        <div class="infoFooter">
-            <img src="images/logo.webp" alt="logo">       
+    <footer>
+        <div class="allFooter">
+            <div class="infoFooter1">
+                <img src="images/logo.webp" alt="logo" width="100px">       
+            </div>
+            <div class="infoFooter2">
+                <ul>
+                    <li>Headquarter Address: 4800 Montgomery Ln #300, Bethesda, MD 20814</li>
+                    <li>Phone: +12402038135</li>
+                    <li><a href="https://goo.gl/maps/z4sMQEDuXjcm37PDA">Location On Map &#128681;</a></li>
+                    
+                </ul>
+            </div>
+            <div class="infoFooter3">
+                <ul>
+                    <li><a href="contactus.html">Contact Us</a></li>
+                    <li><a href="credits.html">&#128679; Credits &#128679;</a></li>
+                    
+                </ul>
+            </div>
+            <div class="infoFooter4">
+                <h2>Follow Us</h2>
+                <div class="social">
+                    <a href="https://instagram.com" target="_blank"><img src="images/instagram.png" alt="Facebook logo" width="50px"></a>
+                    <a href="https://twitter.com" target="_blank"><img src="images/tw.png" alt="LinkedIn logo" width="50px"></a>
+                </div> 
+            </div>
         </div>
-        <div class="infoFooter">
-            <ul>
-                <li><a href="#">Contact Us</a></li>
-                <li><a href="#">Contact Us</a></li>
-                <li><a href="#">Contact Us</a></li>
-            </ul>
-        </div>
-        <div class="infoFooter">
-            <ul>
-                <li><a href="#">Contact Us</a></li>
-                <li><a href="#">Contact Us</a></li>
-                <li><a href="#">Contact Us</a></li>
-            </ul>
-        </div>
-        <div class="infoFooter">
-            <h2>Follow Us</h2>
-            <div class="social">
-                <a href="https://instagram.com" target="_blank"><img src="images/instagram.png" alt="Facebook logo" class="iconos"></a>
-                <a href="https://twitter.com" target="_blank"><img src="images/tw.png" alt="LinkedIn logo" class="iconos"></a>
-            </div> 
+        <div class="personalInfo">
+            <div>&copy;<span id="currentyear"></span> .:|:. Sergio Benavides Reyes .:|:. Bogota</div>
+            <span id="lastupdated"></span>
         </div>
 
-        <div class="personalInfo">
-            <div class="wdd-info">&copy;<span id="currentyear"></span> .:|:. Sergio Benavides Reyes .:|:. Bogota</div>
-        </div>
-            <span id="lastupdated"></span>
-            
-        
 
     </footer>
 

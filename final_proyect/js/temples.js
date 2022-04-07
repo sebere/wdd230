@@ -16,6 +16,19 @@ function displayTemples(temples) {
   let card = document.createElement('section');
   card.setAttribute('class','tarjeta')
 
+
+  //btn
+
+  let like_btn = document.createElement('button');
+  like_btn.textContent = temples.like_btn
+  like_btn.setAttribute('class','btn-like')
+  card.appendChild(like_btn);
+  
+  let  i = document.createElement('i');
+  i.setAttribute('class', 'fa-solid fa-thumbs-up' )
+  like_btn.appendChild(i);
+
+
   //img
   let image = document.createElement('img');
   image.src = temples.imgfile;
@@ -60,6 +73,9 @@ function displayTemples(temples) {
   btn.setAttribute('class','readMore-btn')
   btn.setAttribute('id', 'hideText_btn')
   card.appendChild(btn);  
+
+
+
 
 
   cards.appendChild(card);
